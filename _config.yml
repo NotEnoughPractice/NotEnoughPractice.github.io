@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title:
-description:
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+title: Not Enough Practice
+description: Not Enough Practice: We put our knowledge of Security and Forensics to the test!
+logo: Logo2.png
+teaser: Logo4.png
 locale:
-url:
+url: /
 
 # Jekyll configuration
 
@@ -22,15 +22,15 @@ gems:
 
 # Site owner
 owner:
-  name:
-  email:
-  twitter:
+  name: Kate Slaughter
+  email: notenoughpractice@gmail.com
+  twitter: startpracticing
   google:
     ad-client: 
     ad-slot: 
   bio: 
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname:
+  avatar: Logo2.png
+disqus-shortname: notenoughpractice
 
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
