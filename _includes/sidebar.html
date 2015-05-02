@@ -2,11 +2,20 @@
 	<div class="wrapper-sidebar">
 		<div class="content-sidebar">
 			<a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/NEP-Logo3.png" alt="Not(!) Enough Practice"></a>
-			<p><br><b>Categories</b>
+			<p><b>RECENT POSTS</b>
 				<ul>
-					{% for cat in site.categories %}
-	    				<li>{{ cat[0] }}</li>
+					{% for post in site.posts %}
+	    				<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
 					{% endfor %}
+				</ul>
+			</p>
+			<p><br><b>OUR FAVOURITE TECH TWEETERS</b>
+				<ul>
+	    			<li><a href="https://twitter.com/TechCrunch">@TechCrunch</a></li>
+	    			<li><a href="https://twitter.com/TheHackersNews">@TheHackersNews</a></li>
+	    			<li><a href="https://twitter.com/ForensicFocus">@ForensicFocus</a></li>
+	    			<li><a href="https://twitter.com/securitycompass">@securitycompass</a></li>
+	    			<li><a href="https://twitter.com/metasploit">@metasploit</a></li>
 				</ul>
 			</p>
 		</div>

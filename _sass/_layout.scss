@@ -285,11 +285,23 @@
     padding-top: 150px;
 }
 .content-sidebar p {
-    padding-top: 75px;
     padding-left: 10px;
 }
 .content-sidebar ul { 
     list-style:none; 
+}
+.content-sidebar a {
+    color: $grey-color-light;
+    text-decoration: none;
+
+    &:visited {
+        color: $grey-color;
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
 }
 
  @include media-query($on-palm) {

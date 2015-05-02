@@ -3,6 +3,7 @@ layout: post
 title:  "Work in Progress"
 date:   2015-05-02 00:36:46
 categories: WIP
+synopsis: "We are almost there!"
 ---
 Hello World!
 
