@@ -1,0 +1,14 @@
+<nav class="sidebar-nav">
+	<div class="wrapper-sidebar">
+		<div class="content-sidebar">
+			<a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/NEP-Logo3.png" alt="Not(!) Enough Practice"></a>
+			<p><br><b>Categories</b>
+				<ul>
+					{% for cat in site.categories %}
+	    				<li>{{ cat[0] }}</li>
+					{% endfor %}
+				</ul>
+			</p>
+		</div>
+	</div>
+</nav>

@@ -5,9 +5,15 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    width: 80%;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+}
+@include media-query($on-palm) {
+    .site-header {
+        width: 100%;
+    }
 }
 
 .site-title {
@@ -24,7 +30,7 @@
 }
 
 .site-nav {
-    float: right;
+    float: left;
     line-height: 56px;
 
     .menu-icon {
@@ -92,8 +98,16 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    width: 75%;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+@include media-query($on-palm) {
+    .site-footer {
+        width: 100%;
+    }
 }
 
 .footer-heading {
@@ -163,6 +177,14 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    width: 75%;
+    position: fixed;
+    float: left;
+}
+@include media-query($on-palm) {
+    .page-content {
+        width: 100%;
+    }
 }
 
 .page-heading {
@@ -234,3 +256,46 @@
         }
     }
 }
+
+/**
+ * Side Nav
+ */
+ .sidebar-nav{
+    
+ }
+ .wrapper-sidebar{
+    z-index: 1000;
+    position: fixed;
+    right: 250px;
+    width:20%;
+    height: 100%;
+    margin-right: -250px;
+    overflow-y: auto;
+    background: #000;
+    padding: 10px;
+    color: #fff;
+    top: 0;
+ }
+.wrapper-sidebar img{
+    max-width: 75%;
+    align: middle;
+}
+
+.content-sidebar{
+    padding-top: 150px;
+}
+.content-sidebar p {
+    padding-top: 75px;
+    padding-left: 10px;
+}
+.content-sidebar ul { 
+    list-style:none; 
+}
+
+ @include media-query($on-palm) {
+    .wrapper-sidebar{
+        width: 0;
+        padding: 0;
+    }
+ }
+

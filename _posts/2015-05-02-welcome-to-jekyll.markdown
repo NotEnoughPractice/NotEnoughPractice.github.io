@@ -6,7 +6,7 @@ categories: WIP
 ---
 Hello World!
 
-We're just getting out shit together and writing our first few articles to give us a good strong start. (Also working on making a **prettier** site - PROMISE!)
+We're just getting our shit together and writing our first few articles to give us a good strong start. (Also working on making a **prettier** site - PROMISE!)
 
 Can't wait to bring to you an easily accessible, hands-on approach to Security and Forensics. 
 

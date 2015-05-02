@@ -10,4 +10,4 @@ This blog is a place for them to practice their skills using exercises they find
 
 The hope is to eventually build a community where professionals and students can share their experience as we all practice together. Creating a judgement free zone where new people can join in and try something they may otherwise be scared to do in a large Capture the Flag or Forensic Rodeo.
 
-If you like what we're doing and want to join our **very** new community or have any suggestions - please tweet us [GetPracticing](https://twitter.com/{{ site.twitter_username }}). 
+If you like what we're doing and want to join our **very** new community or have any suggestions - please tweet us [@GetPracticing](https://twitter.com/{{ site.twitter_username }}). 
