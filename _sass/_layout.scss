@@ -100,7 +100,8 @@
 .site-footer {
     padding: $spacing-unit 0;
     width: 75%;
-    position:absolute;
+    position:relative;
+    overflow: auto;
     bottom:0;
     left:0;
 }
@@ -178,8 +179,9 @@
 .page-content {
     padding: $spacing-unit 0;
     width: 75%;
-    position: fixed;
     float: left;
+
+
 }
 @include media-query($on-palm) {
     .page-content {

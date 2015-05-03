@@ -13,6 +13,7 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
@@ -161,6 +162,7 @@ pre {
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
+
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
